@@ -1,0 +1,64 @@
+-- phpMyAdmin SQL Dump
+-- version 4.6.6
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: May 13, 2019 at 02:19 PM
+-- Server version: 5.7.17
+-- PHP Version: 7.1.23
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+--
+-- Database: `txrf`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `taxref12`
+--
+
+CREATE TABLE `taxref12` (
+  `REGNE` varchar(128) NOT NULL,
+  `PHYLUM` varchar(128) NOT NULL,
+  `CLASSE` varchar(128) NOT NULL,
+  `ORDRE` varchar(128) NOT NULL,
+  `FAMILLE` varchar(128) NOT NULL,
+  `SOUS_FAMILLE` varchar(128) NOT NULL,
+  `TRIBU` varchar(128) NOT NULL,
+  `GROUP1_INPN` varchar(128) NOT NULL,
+  `GROUP2_INPN` varchar(128) NOT NULL,
+  `CD_NOM` varchar(128) NOT NULL,
+  `CD_TAXSUP` varchar(128) NOT NULL,
+  `CD_SUP` varchar(128) NOT NULL,
+  `CD_REF` varchar(128) NOT NULL,
+  `RANG` varchar(128) NOT NULL,
+  `LB_NOM` varchar(128) NOT NULL,
+  `LB_AUTEUR` varchar(128) NOT NULL,
+  `NOM_COMPLET` text,
+  `NOM_COMPLET_HTML` text,
+  `NOM_VALIDE` text,
+  `NOM_VERN` text,
+  `NOM_VERN_ENG` text,
+  `HABITAT` text,
+  `FR` varchar(128) NOT NULL,
+  `GF` varchar(128) NOT NULL,
+  `MAR` varchar(128) NOT NULL,
+  `GUA` varchar(128) NOT NULL,
+  `SM` varchar(128) NOT NULL,
+  `SB` varchar(128) NOT NULL,
+  `SPM` varchar(128) NOT NULL,
+  `MAY` varchar(128) NOT NULL,
+  `EPA` varchar(128) NOT NULL,
+  `REU` varchar(128) NOT NULL,
+  `SA` varchar(128) NOT NULL,
+  `TA` varchar(128) NOT NULL,
+  `TAAF` varchar(128) NOT NULL,
+  `PF` varchar(128) NOT NULL,
+  `NC` varchar(128) NOT NULL,
+  `WF` varchar(128) NOT NULL,
+  `CLI` varchar(128) NOT NULL,
+  `URL` varchar(128) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

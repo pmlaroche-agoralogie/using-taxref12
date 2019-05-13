@@ -1,0 +1,9 @@
+Sur MacOsX
+marche à suivre :
+- ouvrir le fichier TAXREFv12.txt avec Komodo
+- modifier l'encodage pour le passer en UTF8
+- sauver le fichier
+- envoyer à SQL le conteu de structure-base-mysql.sql NB : la plupard des colonnes pourraient etre stockées avec des varchar plus court
+- puis charger import_taxref.sql
+- puis ALTER TABLE `taxref12` ADD `uid` INT(8) NOT NULL AUTO_INCREMENT FIRST, ADD PRIMARY KEY (`uid`);
+        pour travailler plus facilement localement
